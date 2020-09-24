@@ -1,14 +1,14 @@
 # serverless-plugin-ncc
 
-A serverless plugin to use [@zeit/ncc](https://www.npmjs.com/package/@zeit/ncc) for compiling code before packaging.
+A serverless plugin to use [@zeit/ncc](https://www.npmjs.com/package/@vercel/ncc) for compiling code before packaging.
 
 ## Usage
 
 ```sh
-npm install -D serverless-plugin-ncc @zeit/ncc
+npm install -D serverless-plugin-ncc @vercel/ncc
 ```
 
-`@zeit/ncc` is a peer dependency, so we'll have to install it separately.
+`@vercel/ncc` is a peer dependency, so we'll have to install it separately.
 
 Add the pluging to `serverless.yml`
 
@@ -40,7 +40,7 @@ custom:
     minify: true
 ```
 Note that all options are currently passed directly to ncc. To view all possible options
-check the [ncc docs](https://github.com/zeit/ncc#programmatically-from-nodejs)
+check the [ncc docs](https://github.com/vercel/ncc#programmatically-from-nodejs)
 
 ## Pass custom options per-function
 

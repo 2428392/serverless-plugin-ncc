@@ -1,4 +1,4 @@
-import { CompiledOutput } from '@zeit/ncc';
+import { CompiledOutput } from '@vercel/ncc';
 import _ from 'lodash';
 import path from 'path';
 import makeDir from 'make-dir';
