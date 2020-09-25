@@ -5,7 +5,7 @@ A serverless plugin to use [@vercel/ncc](https://www.npmjs.com/package/@vercel/n
 ## Usage
 
 ```sh
-npm install -D serverless-plugin-ncc @vercel/ncc
+npm install -D @fye/serverless-plugin-ncc @vercel/ncc
 ```
 
 `@vercel/ncc` is a peer dependency, so we'll have to install it separately.
@@ -14,7 +14,7 @@ Add the pluging to `serverless.yml`
 
 ```yml
 plugins:
-  - serverless-plugin-ncc
+  - @fye/serverless-plugin-ncc
 ```
 
 ## How to use with TypeScript files?
