@@ -1,6 +1,6 @@
 # serverless-plugin-ncc
 
-A serverless plugin to use [@zeit/ncc](https://www.npmjs.com/package/@vercel/ncc) for compiling code before packaging.
+A serverless plugin to use [@vercel/ncc](https://www.npmjs.com/package/@vercel/ncc) for compiling code before packaging.
 
 ## Usage
 
